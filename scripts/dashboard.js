@@ -22,6 +22,7 @@ const STATUS_CONFIG = {
     }
 };
 
+
 const PRIORITY_STYLES = {
     high: { bg: "bg-red-100", text: "text-red-500", modal: "bg-red-500" },
     medium: { bg: "bg-yellow-100", text: "text-yellow-600", modal: "bg-yellow-500" },
