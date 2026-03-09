@@ -29,9 +29,7 @@ const PRIORITY_STYLES = {
     default: { bg: "bg-gray-200", text: "text-neutral/50", modal: "bg-green-500" }
 };
 
-/**
- * Core Data Fetching
- */
+
 const initializeDashboard = async () => {
     try {
         const response = await fetch(`${API_BASE_URL}/issues`);
