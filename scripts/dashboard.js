@@ -41,9 +41,7 @@ const initializeDashboard = async () => {
     }
 };
 
-/**
- * UI Rendering Logic
- */
+
 const renderIssueCards = (issuesList) => {
     const container = document.getElementById('card');
     const counter = document.getElementById('issue-count');
